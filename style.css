@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+
+.main_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 0;
+    width: 100%;
+    height: 98vh;
+    background-color: white;
+    
+}
+
+#sub{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+
+#sub:hover{
+    border: 5px solid black;
+}
+
+.text{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+/*
+ Addint borders 
+ */
+
+.one{
+    
+    border-top-left-radius: 10px; 
+}
+
+
+.three{
+    border-top-right-radius: 10px;
+}
+
+
+.seven{
+    border-bottom-left-radius: 10px;
+}
+
+
+.nine{
+    border-bottom-right-radius: 10px;
+}
